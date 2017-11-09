@@ -1,0 +1,98 @@
+.bannerbilde {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* sentrerer teksten og scaler den med browser vinduet */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+ul:nth-of-type(1) {
+    list-style-type: none;
+    margin-top: -4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:16px 100px;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.aktiv) {
+    background-color: #111;
+}
+
+.aktiv {
+    background-color: #4CAF50;
+}
+
+
+.textHjem {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+h2:nth-of-type(1) {
+    border-bottom: solid black 1px;
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 20px;
+}
+
+.pakke {
+    border-bottom: solid black 2px;
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+h3 a {
+    color: black;
+}
+
+h4 {
+    text-align: center;
+}
+
+.border {
+    border-bottom: solid black 1px;
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-top: 20px;
+}
+            
+ /* Footer */
+#footer { background:#333;}
+#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+#footer a {color:white;text-decoration:none;}
+
+.bsgn {
+    padding-left: 38%; 
+    padding-right: 38%;
+}

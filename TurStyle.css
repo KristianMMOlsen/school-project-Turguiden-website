@@ -1,0 +1,88 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* sentrerer teksten og scaler den med browser vinduet */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul:nth-of-type(1) {
+    list-style-type: none;
+    margin-top: -4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:16px 100px;
+    max-width: 100%;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.aktiv) {
+    background-color: #111;
+}
+
+.aktiv {
+    background-color: #4CAF50;
+}
+
+.textHjem {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+label, input, select {
+    display:inline-block;
+}
+
+input, select {
+    margin-bottom: 1em;
+}
+
+fieldset {
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+fieldset fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input[type="checkbox"] {
+    display:inline;
+}
+
+#footer { background:#333;}
+#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+#footer a {color:white;text-decoration:none;}
+
+
+
+
+
+
+

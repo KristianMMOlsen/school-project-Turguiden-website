@@ -1,0 +1,122 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* sentrerer teksten og scaler den med browser vinduet */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+body {
+	font-family: Georiga;
+	
+ }
+ 
+
+ 	img {
+    	width: 100%; 
+    	height: auto;
+}
+
+	ul {
+    	list-style-type: none;
+    	margin-top: -4px;
+    	padding: 0;
+    	overflow: hidden;
+   		background-color: #333;}
+
+	h1 {
+ 		text-align: center; 
+ 			}
+
+ 	li {
+    	float: left;}
+
+	li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding:16px 100px;
+    	max-width: 100%;
+    	text-decoration: none;}
+
+	li a:hover:not(.aktiv) {
+    	background-color: #111;}
+
+.aktiv {
+    	background-color: #4CAF50;}
+
+.border {
+		margin-right: 20%;
+		margin-left: 20%;
+		border-bottom: solid black 1px;
+		margin-bottom: 3px;
+		
+		}
+
+.border2 {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+
+	h1 {
+ 		text-align: center; 
+ 		}
+
+ 	h2 {
+ 		text-align: center;
+ 		padding-top: 50px;
+ 		padding-bottom: 20px;
+ 		border-bottom: solid black 1px;}
+
+ 	h3 {
+
+ 		padding-top: 100px;
+ 		padding-left: 22%;
+ 		padding-right: 22%;
+ 		}
+
+
+ 	
+
+.bildeTekst{ 	
+ 		padding-top: 30px;
+ 		padding-right: 30%;
+ 		padding-left: 16%;
+ 		margin-right: 10%
+ 		 }
+
+.bilde{
+	float: right;
+	background-repeat: no-repeat;
+	clear: none;
+	max-width: 300px;
+	padding-bottom: 10px;
+	}	
+
+	figcaption {
+		margin-top: 90px;
+		text-align: right;
+		font-size: 10px;
+		padding-bottom: 5px;}
+
+#footer { background:#333;}
+#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+#footer a {color:white;text-decoration:none;}
+  	
+
+	
+	
+		
+
+ 		
+	
+
+

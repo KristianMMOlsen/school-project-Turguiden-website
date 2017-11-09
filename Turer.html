@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="TurStyle.css">
+  <title>Turer</title>
+  <link rel="icon" href="bilder/T.jpg">
+</head>
+
+<body>
+<header class="container">
+    <img src="bilder/bannerbilde.jpg" class="bannerbilde">
+    <h1 class="centered">Turguiden.no</h1>
+  </header>
+
+<ul>		
+  <li><a href="Hjem.html">Hjem</a></li>
+  <li><a href="Produkt.html">Produkt</a></li>
+  <li><a class="aktiv" href="Turer.html">Turer</a></li>
+  <li><a href="Omoss.html">Om oss</a>
+</ul>
+
+<div class="textHjem">
+<body>
+<form id="register">
+<h1>Bestill tur</h1>
+  <fieldset> 
+    <legend>Personlig informasjon</legend> 
+    <div> 
+        <label>Fornavn
+        <input id="Gitt navn" name="Gitt navn" type="text" placeholder="Kun fornavn" required autofocus> 
+		</label>
+    </div>
+    <div> 
+        <label>Etternavn
+        <input id="Etternavn" name="Etternavn" type="text" placeholder="Kun etternavn" required autofocus> 
+		</label>
+    </div>
+    <div> 
+        <label>Email
+        <input id="email" name="email" type="email" placeholder="eksempel@gmail.com" required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Telefon
+        <input id="telefon" name="telefon" type="tlf" placeholder="Eks. +47 40 00 00 00" required>
+		</label> 
+    </div>
+  </fieldset>
+  <fieldset>
+  	<legend>Velg tur</legend>
+  	        <label>Turer
+        <select name="Turer"> 
+        	<option label="Sabotørstien" value="Sabotørstien"></option> 
+        	<option label="Galdhøpiggen" value="Galdhøpiggen"></option> 
+        	<option label="Besseggen" value="Besseggen"></option> 
+        </select>
+		</label> 
+			<label>Velg dato
+		<select name="Dato"> 
+        	<option label="10.10.17" value="10.10.17"></option> 
+        	<option label="20.10.17" value="20.10.17"></option> 
+        	<option label="01.11.17" value="01.11.17"></option> 
+        </select>
+    	</label>
+  </fieldset>
+  <fieldset> 
+    <legend></legend> 
+    <div> 
+        <label> Addresse 
+        <textarea id="addresse" name="addresse" rows=5 required></textarea>
+		</label> 
+    </div> 
+    <div> 
+        <label>Post nummer
+        <input id="postNr" name="postNr" type="text" required>
+		</label> 
+    </div> 
+    <div> 
+        <label>Land
+        <select name="Land"> 
+        	<option label="Norge" value="Norge"></option> 
+        	<option label="Sverige" value="Sverige"></option> 
+        	<option label="Danmark" value="Danmark"></option> 
+        	<option label="Finland" value="Finland"></option> 
+        </select>
+		</label> 
+    </div> 
+  </fieldset> 
+  <fieldset> 
+    <legend></legend> 
+    <fieldset> 
+      <legend>Velg betalingsmåte</legend> 
+      <div class="card-type"> 
+          <input id="visa" name="korttype" type="radio"> 
+          <label for="visa">VISA</label> 
+          <input id="mastercard" name="korttype" type="radio">
+          <label for="mastercard">Mastercard</label> 
+          <input id="Paypal" name="Paypal" type="radio"> 
+          <label for="Paypal">PayPal</label>
+      </div> 
+    </fieldset>
+    <div> 
+        <label>Navn
+        <input id="kortNavn" name="kortNavn" type="Navn" placeholder="Navn på kortholder" required>
+		</label>  
+    </div>
+    <div> 
+        <label>Kortnummer
+        <input id="cardNo" name="cardNo" type="number" required title="De 16 tallene over midten av kortet"> 
+		</label>
+    </div>
+    <div> 
+        <label>Sikkerhets kode
+        <input id="security" name="security" type="number" required pattern="[0-9]{3}" title="Siste tre tallene bak på kortet ditt">
+		</label> 
+    </div>
+    <div> 
+        <label>Utløpsdato
+        <input id="utløpsdato" name="utløpsdato" type="måned">
+		</label>
+    </div>
+  </fieldset> 
+  <fieldset> 
+  	<div> 
+	    <button type=submit><img src="bilder/thumbs.jpg">Bestill</button> 
+    </div> 
+  </fieldset> 
+</div>
+</form> 
+	<footer id="footer">
+		<div id="footer-inner">
+			<p> <a>© Copyright Turguiden</a> &#124; <a>@ 21.09.2017</a> &#124; <a>turguiden@gmail.com</a></p>
+	       </div>
+	</footer>
+</div>
+</body>
+</html>
